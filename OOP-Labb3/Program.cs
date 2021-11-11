@@ -7,9 +7,9 @@ namespace OOP_Labb3
     {
         static void Main(string[] args)
         {
-            Kvadrat kvadrat = new Kvadrat();
-            Rektangel rektangel = new Rektangel();
-            Cirkel cirkel = new Cirkel();
+            Teckning kvadrat = new Kvadrat();
+            Teckning rektangel = new Rektangel();
+            Teckning cirkel = new Cirkel();
 
             Console.WriteLine("Area Kvadrat: " + kvadrat.Area());
             Console.WriteLine("Area Rektangel: " + rektangel.Area());
